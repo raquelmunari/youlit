@@ -207,7 +207,7 @@ def create_timeline_chart(df, selected_videos=None):
         df_sorted,
         x='data_publicacao',
         y='visualizacoes',
-        title='Timeline de Visualizações ao Longo do Tempo',
+        title='Timeline de Publicações ao Longo do Tempo',
         labels={'data_publicacao': 'Data de Publicação', 'visualizacoes': 'Visualizações'},
         markers=True
     )

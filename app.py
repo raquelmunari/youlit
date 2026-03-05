@@ -271,7 +271,7 @@ if st.session_state.df is not None:
         if len(df) > 1:
             st.markdown("""
                 <div style='background-color: #F5F5F5; padding: 15px; margin: 0 -1rem; border-radius: 5px;'>
-                <h3 style='color: black; margin: 0; font-weight: 600;'>📅 Timeline de Publicações ao Longo do Tempo</h3>
+                <h3 style='color: black; margin: 0; font-weight: 600;'>📅 Timeline de Publicações</h3>
                 </div>
             """, unsafe_allow_html=True)
             
@@ -298,6 +298,7 @@ if st.session_state.df is not None:
             fig_timeline = create_timeline_chart(df, [selected_video])
             if fig_timeline:
                 st.plotly_chart(fig_timeline, width='stretch')
+                st.caption(f"⚠️ A timeline mostra a publicação dos vídeos encontrados ao longo do tempo, sendo os vídeos encontrados os de maior número de visualizações, e não todos os vídeos publicados referentes ao termo ou o canal.")
             else:
                 st.warning("⚠️ Não foi possível gerar o gráfico.")
         
