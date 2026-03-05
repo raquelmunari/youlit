@@ -1,0 +1,11 @@
+# Segredos e Configurações
+.env
+
+# Ambientes Virtuais
+venv/
+
+# Cache Python
+__pycache__/
+
+# Arquivos de sistema
+*:Zone.Identifier

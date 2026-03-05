@@ -1,0 +1,15 @@
+[theme]
+# Tema personalizado do YouLit (baseado nas cores do YouTube)
+primaryColor = "#FF0000"        # Vermelho YouTube
+backgroundColor = "#FFFFFF"     # Branco
+secondaryBackgroundColor = "#F5F5F5"  # Cinza claro
+textColor = "#262730"          # Texto escuro
+font = "sans serif"
+
+[server]
+# Configurações do servidor
+headless = true # Não abre o navegador automaticamente ao executar streamlit run
+
+[browser]
+# Configurações do navegador
+gatherUsageStats = false # Desabilita coleta de estatísticas de uso pelo Streamlit

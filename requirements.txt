@@ -1,0 +1,7 @@
+streamlit>=1.31.0
+pandas>=2.0.0
+plotly>=5.18.0
+google-api-python-client>=2.100.0
+python-dotenv>=1.0.0
+pandasql>=0.7.3
+
